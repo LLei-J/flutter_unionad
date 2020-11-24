@@ -130,7 +130,9 @@ object RewardVideoAd {
                 mttRewardVideoAd?.setRewardAdInteractionListener(object : RewardAdInteractionListener {
                     override fun onAdShow() {
                         Log.e(TAG, "rewardVideoAd show")
-
+                        var map: MutableMap<String, Any?> = mutableMapOf("adType" to "rewardAd", "rewardAdState" to "rewardLoad")
+                        FlutterUnionadEventPlugin.sendContent(map)
+                        //rewardLoad
                     }
 
                     override fun onAdVideoBarClick() {
