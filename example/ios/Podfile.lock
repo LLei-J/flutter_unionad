@@ -1,0 +1,29 @@
+PODS:
+  - Bytedance-UnionAD (3.2.6.2)
+  - Flutter (1.0.0)
+  - flutter_unionad (0.0.1):
+    - Bytedance-UnionAD (~> 3.2.6.2)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_unionad (from `.symlinks/plugins/flutter_unionad/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Bytedance-UnionAD
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_unionad:
+    :path: ".symlinks/plugins/flutter_unionad/ios"
+
+SPEC CHECKSUMS:
+  Bytedance-UnionAD: ee419a461654e1c2338b5f6b0b2224617b230640
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_unionad: 6d0a4791f4644368d0885d28a40afd3fa71dc030
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.1
